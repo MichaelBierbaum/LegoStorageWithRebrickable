@@ -12,6 +12,7 @@ LEGO Storage app using ionicframework, Angular, RxJS, TypeScript, and Rebrickabl
   `cd LegoStorageWithRebrickable` 
 3. Open commandline and install dependencies, e.g. the angular commandline interpreter   
   `npm install -g  @angular/cli`
+4. Install dependencies
   `npm install`
 5. Create an account on rebrickable for using their api
   `https://rebrickable.com`
