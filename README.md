@@ -1,25 +1,32 @@
 # LEGO Search
 
-![LEGO Search App](./src/assets/img/lego-search-app.png)
+![LEGO Storage App](./src/assets/img/LegoStorage.jpg)
 
-LEGO Search app using Angular, RxJS, TypeScript, and Rebrickable API.
+LEGO Storage app using ionicframework, Angular, RxJS, TypeScript, and Rebrickable API.
 
 ## Getting Started
 
 1. Clone the repo  
-  `git clone https://github.com/nightwolfdev/lego.git`
+  `git clone https://github.com/MichaelBierbaum/LegoStorageWithRebrickable`
 2. Navigate to the project folder  
-  `cd lego`
-3. Install dependencies  
+  `cd LegoStorageWithRebrickable` 
+3. Open commandline and install dependencies, e.g. the angular commandline interpreter   
+  `npm install -g  @angular/cli`
   `npm install`
-4. Run the app  
+5. Create an account on rebrickable for using their api
+  `https://rebrickable.com`
+6. Create an key, copy and paste it into 
+  `api_KeyIsMissing.ts`
+7. Rename this file to
+  `api.ts`
+8. Run the app  
   `ng serve`
-5. Visit the app in a browser  
+9. Visit the app in a browser  
   `http://localhost:4200`
 
 ## Links
 
-* [Demo](https://nightwolf.dev/demos/lego)
+* [Demo of upstream (original repo of this fork)](https://nightwolf.dev/demos/lego)
 * [Angular](https://angular.io)
 * [RxJS](https://rxjs.dev)
 * [TypeScript](https://www.typescriptlang.org)
