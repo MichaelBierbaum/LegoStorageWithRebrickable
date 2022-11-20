@@ -1,11 +1,15 @@
 {
   "name": "lego",
-  "description": "LEGO Search app using Angular, RxJS, Typescript and Rebrickable API.",
-  "keywords": ["api", "angular", "typescript", "rxjs"],
-  "homepage": "https://github.com/nightwolfdev/lego",
+  "description": "LEGO Storage app using ionicframework, Angular, RxJS, Typescript and Rebrickable API.",
+  "keywords": [
+    "api", "lego", "rebrickable",
+    "angular", "rxjs", "typescript",
+    "ionicframework", "ionic"        
+  ],
+  "homepage": "https://github.com/MichaelBierbaum/LegoStorageWithRebrickable",
   "author": {
-    "name": "NightWolf Software Development",
-    "url": "https://nightwolf.dev"
+    "name": "Michael Bierbaum",
+    "url": "https://github.com/MichaelBierbaum"
   },
   "version": "0.0.0",
   "scripts": {
@@ -31,7 +35,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.0.5",
-    "@angular/cli": "~14.0.5",
+    "@angular/cli": "^15.0.0",
     "@angular/compiler-cli": "^14.0.0",
     "typescript": "~4.7.2"
   }

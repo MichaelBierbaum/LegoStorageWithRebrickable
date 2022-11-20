@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lego": {
+    "legoStorage": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -39,14 +39,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/lego",
+            "outputPath": "dist/legoStorage",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
+              "src/storageIcon.ico",
               "src/assets"
             ],
             "styles": [
@@ -91,10 +91,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lego:build:production"
+              "browserTarget": "legoStorage:build:production"
             },
             "development": {
-              "browserTarget": "lego:build:development"
+              "browserTarget": "legoStorage:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -102,10 +102,13 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lego:build"
+            "browserTarget": "legoStorage:build"
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
